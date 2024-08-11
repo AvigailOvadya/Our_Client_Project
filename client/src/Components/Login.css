@@ -1,0 +1,15 @@
+#enrollment{
+    position: relative;
+    bottom: 150px;
+    right: 50px;
+}
+#approve {
+    background-color: #ffffff; /* צבע רקע */
+    border-radius: 12px; /* פינות מעוגלות */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* צל */
+    transition: background-color 0.5s ease, transform 0.5s ease; /* הנפשה */
+}
+#approve:hover{
+    background-color: rgb(193, 168, 28); /* צבע רקע בעת ריחוף */
+    transform: scale(1.10); /* הגדלה קלה */
+}

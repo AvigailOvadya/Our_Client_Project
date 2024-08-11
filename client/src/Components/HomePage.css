@@ -1,0 +1,104 @@
+/* #logo{
+    position: relative;
+    bottom: 60px;
+    left: 50px;
+}
+#colo{
+    color: rgb(0, 0, 0);
+    width: 200px;
+    height: 200px;
+} */
+#goldright{
+    position: relative;
+    left: 1237px;
+  }
+  #goldleft{
+    position: relative;
+    top: 540px;
+    right: 800px;
+  }
+  #imggroung{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+  }
+  /* ============= */
+  @keyframes rotateClockwise {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg); /* סיבוב בכיוון השעון */
+    }
+  }
+  
+  @keyframes rotateCounterClockwise {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg); /* סיבוב נגד כיוון השעון */
+    }
+  }
+  
+  #imggroung {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    animation: rotateClockwise 10s linear infinite;
+  }
+  
+  #imggroung1 {
+    position: absolute;
+    top: 20%; /* שינית את המיקום לפי הצורך */
+    left: 40%; /* שינית את המיקום לפי הצורך */
+    animation: rotateCounterClockwise 10s linear infinite;
+  }
+  #logo{
+    position: absolute;
+    top: 200px;
+    left: 830px;
+  }
+  #shine{
+    position: absolute;
+    top: 200px;
+    left: 800px;
+  }
+  /* עיצוב בסיסי לכפתורים */
+  #conection{
+    position: relative;
+    bottom: 300px;
+    right: 1550px;
+  }
+  #enrollment-button{
+    position: relative;
+    bottom: 300px;
+    right: 1530px;
+  }
+  #conection, #enrollment-button {
+    background-color: #ffffff; /* צבע רקע */
+    border-radius: 12px; /* פינות מעוגלות */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* צל */
+    transition: background-color 0.5s ease, transform 0.5s ease; /* הנפשה */
+  }
+  #conection:hover, #enrollment-button:hover {
+    background-color: rgb(193, 168, 28); /* צבע רקע בעת ריחוף */
+    transform: scale(1.10); /* הגדלה קלה */
+  }
+  #wordconaction {
+    text-decoration: none; /* הסרת קו תחתון */
+    color: black;
+    display: flex;
+    align-items: center;
+  }
+  #wordenrollment {
+    text-decoration: none; /* הסרת קו תחתון */
+    color: black;
+    display: flex;
+    align-items: center;
+  }
+  #buckground {
+    z-index: -1;
+    position: absolute;
+    left: 100px;
+  }

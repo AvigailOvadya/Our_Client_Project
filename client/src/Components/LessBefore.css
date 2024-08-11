@@ -1,0 +1,8 @@
+.BeforLess{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    
+}

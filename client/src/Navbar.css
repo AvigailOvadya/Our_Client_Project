@@ -1,0 +1,31 @@
+/* .linsk1{
+    position: relative;
+    top: 80px;
+    left: 380px;
+} */
+.navbar-container {
+    display: flex;
+    justify-content: center; /* מרכז את הכפתורים אופקית */
+    align-items: flex-start; /* ממקם את הכפתורים בחלק העליון */
+    height: 100vh; /* גובה מלא של התצוגה */
+    position: absolute; /* מאפשר מיקום מוחלט */
+    width: 100%; /* לוודא שהקונטיינר יתפוס את כל רוחב הדף */
+    top: 500px;
+  }
+  #button {
+    background-color: #ffffff; /* צבע רקע */
+    border-radius: 10px; /* פינות מעוגלות */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* צל */
+    transition: background-color 0.5s ease, transform 0.5s ease; /* הנפשה */
+    border: none;
+  }
+  #button:hover {
+    background-color: rgb(193, 168, 28); /* צבע רקע בעת ריחוף */
+    transform: scale(1.10); /* הגדלה קלה */
+  }
+  .wordbutton {
+    text-decoration: none; /* הסרת קו תחתון */
+    color: black;
+    display: flex;
+    align-items: center;
+  }
